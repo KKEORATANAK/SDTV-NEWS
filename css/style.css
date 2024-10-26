@@ -1,0 +1,82 @@
+:root {
+    --default: 1rem;
+    --background: #2E073F;
+    --text-color: #fff;
+}
+
+body {
+    border-block-start: 3px solid #7A1CAC;
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+.container-all {
+    margin: 0 17.5%;
+}
+
+.navbar {
+    margin-top: 1rem !important;
+}
+
+.marquee-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    padding: .5rem;
+    background-color: var(--background);
+}
+
+.video-player {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.fs-7 {
+    font-size: .9rem;
+}
+
+.fs-7 td {
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 1399.98px) {
+    .container-all {
+        margin: 0 20%;
+    }
+}
+
+/* `xl` applies to large devices (less than 1200px) */
+@media only screen and (max-width: 1199.98px) {
+    .container-all {
+        margin: 0 15%;
+    }
+}
+
+/* `lg` applies to medium devices (less than 992px) */
+@media only screen and (max-width: 991.98px) {
+    .container-all {
+        margin: 0 10%;
+    }
+}
+
+/* `md` applies to small devices (less than 768px) */
+@media only screen and (max-width: 767.98px) {
+    .container-all {
+        margin: 0 5%;
+    }
+}
+
+/* `sm` applies to extra small devices (less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    .container-all {
+        margin: 0;
+    }
+
+    .ps-0 {
+        padding-inline-start: 1.5rem !important;
+    }
+}
