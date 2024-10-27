@@ -19,7 +19,7 @@ body {
 }
 
 .marquee-text {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Hanuman", serif;
     font-size: 1.2rem;
     font-weight: bold;
 
@@ -41,6 +41,24 @@ body {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.article-title {
+    font-family: 'Hanuman', 'Open Sans';
+    font-weight: bold;
+    color: var(--background);
+}
+
+.article-date {
+    color: #999;
+}
+
+.article-content {
+    color: #000;
+}
+
+.icon {
+    width: 40px;
 }
 
 @media only screen and (max-width: 1399.98px) {
