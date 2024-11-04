@@ -19,7 +19,7 @@ body {
 }
 
 .marquee-text {
-  font-family: sans-serif, 'Hanuman';
+  font-family: sans-serif, "Hanuman";
   font-size: 1.2rem;
   font-weight: bold;
 
@@ -44,20 +44,28 @@ body {
 }
 
 .article-title {
-  font-family: sans-serif, 'Hanuman';
+  font-family: sans-serif, "Hanuman";
   font-weight: bold;
   color: var(--background);
   line-height: 1.5;
 }
 
 .image-title {
-  font-family: sans-serif, 'Hanuman';
+  font-family: sans-serif, "Hanuman";
   color: var(--background);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.no-underline:hover {
+  text-decoration: none;
 }
 
 .text-truncate-2 {
   display: -webkit-box;
-  font-family: sans-serif, 'Hanuman';
+  font-family: sans-serif, "Hanuman";
   line-height: 1.4;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -79,6 +87,42 @@ body {
 
 .icon-share {
   width: 25px;
+}
+
+/*404*/
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 5px 15px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+.search-box button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.search-box button:hover {
+  background-color: #555;
+}
+.search-box .close-btn {
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+  padding: 0 10px;
 }
 
 @media only screen and (max-width: 1399.98px) {
